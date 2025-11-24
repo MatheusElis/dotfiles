@@ -27,6 +27,7 @@ window#waybar.hidden {
 #pulseaudio,
 #pulseaudio-slider,
 #network,
+#tray,
 #battery,
 #custom-power {
   color: @lavender;
@@ -180,7 +181,11 @@ window#waybar.hidden {
 #network {
   color: @base;
   background: @blue;
-  padding-right: 10px;
+  /* padding-left: 10px; */
+}
+#tray {
+  color: @base;
+  background: @blue;
   /* padding-left: 10px; */
 }
 

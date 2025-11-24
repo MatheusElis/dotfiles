@@ -21,9 +21,10 @@
     "idle_inhibitor",
     "bluetooth",
     "pulseaudio",
+    "tray",
     "network",
     "battery",
-    "custom/power"
+    "custom/power",
   ],
   /* === Modules Left === */
   "custom/archicon": {
@@ -33,7 +34,7 @@
   },
   "clock": {
     "timezone": "America/Sao_Paulo",
-    "format": "{:%I:%M  %d, %m}",
+    "format": "{:%H:%M  %d, %m}",
     "tooltip-format": "{calendar}",
     "calendar": {
       "mode": "month",
@@ -131,6 +132,14 @@
     "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
     "format-es": "ESP",
     "format-en": "ENG",
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10,
+    "icons": {
+      "blueman": "bluetooth",
+      "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png",
+    },
   },
   "battery": {
     "interval": 10,
