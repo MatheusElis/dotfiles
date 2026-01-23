@@ -15,7 +15,6 @@ return {
         "typescript",
         "markdown",
         "markdown_inline",
-        "latex",
         "html",
       },
       sync_install = false,
