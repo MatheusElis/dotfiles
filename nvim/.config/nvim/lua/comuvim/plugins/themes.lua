@@ -1,14 +1,12 @@
 return {
-  -- Load all theme plugins but don't apply them
-  -- This ensures all colorschemes are available for hot-reloading
   {
-    "ribru17/bamboo.nvim",
+    "catppuccin/nvim",
+    name = "catppuccin",
     lazy = true,
     priority = 1000,
   },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "ribru17/bamboo.nvim",
     lazy = true,
     priority = 1000,
   },
@@ -29,11 +27,6 @@ return {
   },
   {
     "rebelot/kanagawa.nvim",
-    lazy = true,
-    priority = 1000,
-  },
-  {
-    "tahayvr/matteblack.nvim",
     lazy = true,
     priority = 1000,
   },

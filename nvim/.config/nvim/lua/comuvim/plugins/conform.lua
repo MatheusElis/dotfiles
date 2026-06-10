@@ -18,13 +18,8 @@ return {
   },
   opts = {
     formatters_by_ft = {
-      -- Go
       go = { "goimports", "gofmt" },
-
-      -- Lua
       lua = { "stylua" },
-
-      -- Web technologies
       javascript = { "prettier" },
       typescript = { "prettier" },
       javascriptreact = { "prettier" },
@@ -36,16 +31,12 @@ return {
       html = { "prettier" },
       css = { "prettier" },
       scss = { "prettier" },
-
-      -- Python
       python = { "isort", "black" },
-
-      -- Shell
       sh = { "shfmt" },
       bash = { "shfmt" },
-
-      -- SQL
       sql = { "sqlfmt" },
+      java = { "google-java-format" },
+      kotlin = { "ktlint" },
     },
     default_format_opts = {
       lsp_format = "fallback",
